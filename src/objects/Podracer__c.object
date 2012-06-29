@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Classs__c</fullName>
+        <description>Aircraft class</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aircraft class</inlineHelpText>
+        <label>Classs</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Repulsocraft</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turbojet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turboprop</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>CokpitLength__c</fullName>
+        <description>Length of the cockpit in meters</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Length of the cockpit in meters</inlineHelpText>
+        <label>Cokpit length</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Crew__c</fullName>
+        <description>A brief description of flight crew</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A brief description of flight crew</inlineHelpText>
+        <label>Crew</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EngineLength__c</fullName>
+        <description>Length of an engine</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Length of an engine</inlineHelpText>
+        <label>Engine length</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manufacturer__c</fullName>
+        <externalId>false</externalId>
+        <label>Manufacturer</label>
+        <referenceTo>Manufacturer__c</referenceTo>
+        <relationshipLabel>Podracers</relationshipLabel>
+        <relationshipName>Podracers</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ManufacturingDate__c</fullName>
+        <description>Year when the vehicle was manufactured</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Year when the vehicle was manufactured</inlineHelpText>
+        <label>Manufacturing date</label>
+        <length>16</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MaxSpeed__c</fullName>
+        <description>Maximum ground speed in km/h</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum ground speed in km/h</inlineHelpText>
+        <label>Max speed</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OptionalEquipment__c</fullName>
+        <description>A description of installed options or customizations</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A description of installed options or customizations</inlineHelpText>
+        <label>Optional equipment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <description>Current selling price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Current selling price</inlineHelpText>
+        <label>Price</label>
+        <precision>12</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <label>Podracer</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Podracer Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Podracers</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

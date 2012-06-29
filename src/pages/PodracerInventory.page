@@ -1,0 +1,6 @@
+<apex:page controller="Podracer" showHeader="true">
+  <h1>Pod Trader - the best place to find your new Podracer</h1>
+  <apex:dataList value="{!podracers}" var="podracer">
+    <apex:outputText value="{!podracer.name}"/>
+  </apex:dataList>
+</apex:page>

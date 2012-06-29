@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Podracer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Podracers</value>
+    </caseValues>
+    <fields>
+        <help><!-- Aircraft class --></help>
+        <label><!-- Classs --></label>
+        <name>Classs__c</name>
+        <picklistValues>
+            <masterLabel>Repulsocraft</masterLabel>
+            <translation><!-- Repulsocraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turbojet</masterLabel>
+            <translation><!-- Turbojet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turboprop</masterLabel>
+            <translation><!-- Turboprop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Length of the cockpit in meters --></help>
+        <label><!-- Cokpit length --></label>
+        <name>CokpitLength__c</name>
+    </fields>
+    <fields>
+        <help><!-- A brief description of flight crew --></help>
+        <label><!-- Crew --></label>
+        <name>Crew__c</name>
+    </fields>
+    <fields>
+        <help><!-- Length of an engine --></help>
+        <label><!-- Engine length --></label>
+        <name>EngineLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer --></label>
+        <name>Manufacturer__c</name>
+        <relationshipLabel><!-- Podracers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Year when the vehicle was manufactured --></help>
+        <label><!-- Manufacturing date --></label>
+        <name>ManufacturingDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum ground speed in km/h --></help>
+        <label><!-- Max speed --></label>
+        <name>MaxSpeed__c</name>
+    </fields>
+    <fields>
+        <help><!-- A description of installed options or customizations --></help>
+        <label><!-- Optional equipment --></label>
+        <name>OptionalEquipment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Current selling price --></help>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
