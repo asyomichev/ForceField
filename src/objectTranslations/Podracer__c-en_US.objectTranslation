@@ -12,18 +12,6 @@
         <help><!-- Aircraft class --></help>
         <label><!-- Classs --></label>
         <name>Classs__c</name>
-        <picklistValues>
-            <masterLabel>Repulsocraft</masterLabel>
-            <translation><!-- Repulsocraft --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Turbojet</masterLabel>
-            <translation><!-- Turbojet --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Turboprop</masterLabel>
-            <translation><!-- Turboprop --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <help><!-- Length of the cockpit in meters --></help>
@@ -65,5 +53,12 @@
         <label><!-- Price --></label>
         <name>Price__c</name>
     </fields>
+    <layouts>
+        <layout>Podracer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

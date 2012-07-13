@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recall</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recalls</value>
+    </caseValues>
+    <fields>
+        <help><!-- Recall announcement date --></help>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Recall expiration date --></help>
+        <label><!-- Expires --></label>
+        <name>Expires__c</name>
+    </fields>
+    <fields>
+        <help><!-- Podracer recall was issued for --></help>
+        <label><!-- Podracer --></label>
+        <name>Podracer__c</name>
+        <relationshipLabel><!-- Recalls --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

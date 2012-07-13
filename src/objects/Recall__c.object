@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Podracer recall information</description>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Date__c</fullName>
+        <description>Recall announcement date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Recall announcement date</inlineHelpText>
+        <label>Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Expires__c</fullName>
+        <description>Recall expiration date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Recall expiration date</inlineHelpText>
+        <label>Expires</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Podracer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Podracer recall was issued for</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Podracer recall was issued for</inlineHelpText>
+        <label>Podracer</label>
+        <referenceTo>Podracer__c</referenceTo>
+        <relationshipLabel>Recalls</relationshipLabel>
+        <relationshipName>Recalls</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <label>Recall</label>
+    <nameField>
+        <label>Recall description</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Recalls</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

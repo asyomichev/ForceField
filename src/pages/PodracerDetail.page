@@ -1,0 +1,13 @@
+<apex:page standardController="Podracer__c" extensions="PodracerExtension" showHeader="false" sidebar="false">
+  <h2 class="mainTitle">Recalls</h2>
+  <apex:dataTable value="{!recallInfo}" frame="box" cellspacing="4" var="recallItem" rowClasses="odd,even" styleClass="tableClass" id="recallInfoList">
+    <apex:column >
+      <apex:facet name="header">Date</apex:facet>
+      <apex:outputText >07/12/2012</apex:outputText>
+    </apex:column>
+    <apex:column >
+      <apex:facet name="header">Description</apex:facet>
+      <apex:outputText >{!recallItem}</apex:outputText>
+    </apex:column>
+  </apex:dataTable>
+</apex:page>

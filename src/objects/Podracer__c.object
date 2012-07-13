@@ -43,23 +43,11 @@
         <externalId>false</externalId>
         <inlineHelpText>Aircraft class</inlineHelpText>
         <label>Classs</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Repulsocraft</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Turbojet</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Turboprop</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
+        <length>32</length>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>CokpitLength__c</fullName>
@@ -154,7 +142,7 @@
         <inlineHelpText>Current selling price</inlineHelpText>
         <label>Price</label>
         <precision>12</precision>
-        <required>true</required>
+        <required>false</required>
         <scale>2</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Currency</type>
