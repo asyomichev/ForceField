@@ -34,10 +34,10 @@
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Podracer recall information</description>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <fields>
         <fullName>Date__c</fullName>
         <description>Recall announcement date</description>
@@ -68,6 +68,16 @@
         <relationshipName>Recalls</relationshipName>
         <required>false</required>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RefDataID__c</fullName>
+        <externalId>true</externalId>
+        <label>RefDataID</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <label>Recall</label>
     <nameField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Protected</customSettingsVisibility>
+    <description>Recall Info data source configuration and external URL</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>DataHubURL__c</fullName>
+        <defaultValue>&quot;http://evening-beach-9369.herokuapp.com/podracer/&quot;</defaultValue>
+        <description>A URL end-point for the REST service providing Recall data</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A URL end-point for the REST service providing Recall data</inlineHelpText>
+        <label>DataHubURL</label>
+        <required>true</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>External__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked, Recall data will be loaded externally, directly from the Reference Data Hub</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Load Recall data externally, directly from the Reference Data Hub</inlineHelpText>
+        <label>External</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>RecallDataSource</label>
+</CustomObject>

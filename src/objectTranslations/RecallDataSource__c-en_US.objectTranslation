@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RecallDataSource</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RecallDataSource</value>
+    </caseValues>
+    <fields>
+        <help><!-- A URL end-point for the REST service providing Recall data --></help>
+        <label><!-- DataHubURL --></label>
+        <name>DataHubURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Load Recall data externally, directly from the Reference Data Hub --></help>
+        <label><!-- External --></label>
+        <name>External__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

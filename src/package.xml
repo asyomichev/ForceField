@@ -83,9 +83,6 @@
         <members>PartnerRole</members>
         <members>Product2</members>
         <members>Site</members>
-        <members>SnapshotAuditEvent</members>
-        <members>SnapshotBin</members>
-        <members>SnapshotConfig</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>Task</members>
@@ -184,6 +181,8 @@
     </types>
     <types>
         <members>ApexDevNet</members>
+        <members>DataHub</members>
+        <members>LocalDataHub</members>
         <name>RemoteSiteSetting</name>
     </types>
     <types>

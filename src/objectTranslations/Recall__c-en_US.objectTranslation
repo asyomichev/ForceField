@@ -24,5 +24,9 @@
         <name>Podracer__c</name>
         <relationshipLabel><!-- Recalls --></relationshipLabel>
     </fields>
+    <fields>
+        <label><!-- RefDataID --></label>
+        <name>RefDataID__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
